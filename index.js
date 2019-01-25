@@ -95,7 +95,11 @@ function createRock(x) {
      */
     rock.style.top = `${top += 2}px`
     if (top < 380) {
+<<<<<<< HEAD
       window.requestAnimationFrame(moveRock)
+=======
+        window.requestAnimationFrame(moveRock)
+>>>>>>> 2b3bc70bf7dd1aff09ec9959695ba02ad4a4e1fb
     } else {
       rock.remove()
     }
@@ -109,7 +113,11 @@ function createRock(x) {
 moveRock()
   // Add the rock to ROCKS so that we can remove all rocks
   // when there's a collision
+<<<<<<< HEAD
 ROCKS.push(rock)
+=======
+
+>>>>>>> 2b3bc70bf7dd1aff09ec9959695ba02ad4a4e1fb
   // Finally, return the rock element you've created
   return rock
 }
